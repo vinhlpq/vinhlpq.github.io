@@ -1,0 +1,124 @@
+/* Navbar*/
+
+#navbar-header {
+    background-color: white;
+}
+#navbar-header a {
+    color: rgb(0,114,211);
+}
+#navbar-header .fa-search {
+        color: black;
+    }
+#navbar-header a:active {
+    color: yellow;
+}
+@media only screen and (min-width: 768px) {
+    #navbar-header {
+        background-color: rgb(0, 114, 211);
+    }
+    #navbar-header a {
+        color: white;
+    }
+    #navbar-header .fa-search {
+        color: white;
+    }
+    
+}
+
+/*banner*/
+.container-fluid {
+    padding-right: 0px !important; 
+    padding-left: 0px !important;
+    margin-bottom: 30px;
+}
+
+
+
+/* About-us*/
+}
+.about-us {
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+/* Our business*/
+.our-business-position {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    left: -160px;
+    bottom: 0px;
+    color: white;
+}
+.our-business-position ul {
+    list-style: none;
+}
+.container3img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .our-business-position {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    color: white;
+}
+}
+/* News */
+#news {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+.news-border{
+    border: 1px solid black;   
+}
+.news-border a, h5, p {
+    padding-left: 5px;
+    padding-right: 5px;
+} 
+/*
+Footer
+*/
+footer {
+    background-color: black;
+    color: white;
+}
+footer a {
+    color: white;
+}
+
+ul.arrow  {
+  list-style: none; /* Remove HTML bullets */
+  padding: 0;
+  margin: 0;
+}
+.arrow li { 
+  padding-left: 16px; 
+}
+
+.arrow li::before {
+  content: ">"; /* Insert content that looks like arrow */
+  padding-right: 8px;
+  color: white; /* Or a color you prefer */
+}
+.input-width {
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+}
+.send-mes {
+    position: absolute;
+    display: flex; 
+    justify-content: center
+}
+@media only screen and (min-width: 992px) {
+    .send-mes {
+        left: 170px;
+    }
+}
