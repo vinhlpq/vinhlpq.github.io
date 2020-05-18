@@ -1,1 +1,4 @@
-Sitemap: http://example.com/sitemap_location.xml
+User-agent: *
+Allow: /
+
+Sitemap: http://vinhlpq.github.io/index.xml
